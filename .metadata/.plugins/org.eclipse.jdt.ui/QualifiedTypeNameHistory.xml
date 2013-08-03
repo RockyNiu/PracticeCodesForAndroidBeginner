@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.rockyniu.s02_e01_multiactivity.R.layout"/>
+<fullyQualifiedTypeName name="com.rockyniu.s02_e01_multiactivity.R.id"/>
+<fullyQualifiedTypeName name="com.rockyniu.s01_e02_lifecycle.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+</qualifiedTypeNameHistroy>
