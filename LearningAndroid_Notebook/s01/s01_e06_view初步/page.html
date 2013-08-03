@@ -3,16 +3,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>S01_E06_View初步</title>
-</head><body><span style="font-size: 12pt"><span style="color: #0000ff">S01_E06_View初步</span></span><br/>
+</head><body><span style="color: #0000ff"><span style="font-size: 12pt"><a href="nbk:///c741f096-81a9-4ac7-b1fe-39259839be00">S01_E06_View初步</a></span></span><br/>
 <br/>
-two ways to set view:<ul><li>activity_main.xml # 初始化</li>
-<li>MainActivity.java # 修改</li>
+two ways to set view:<ul><li>activity_main.xml &#09;# 初始化</li>
+<li>MainActivity.java &#09;# 修改</li>
 </ul>
 <br/>
-监听器(listener)<ul><li>获取代表控件的对象</li>
-<li>定义一个类，实现监听器接口</li>
-<li>生成监听器对象</li>
-<li>为控件绑定监听器对象</li>
+监听器(listener)<ul><li>获取代表控件的对象&#09;&#09;&#09;findViewById(R.id.button)</li>
+<li>定义一个类，实现监听器接口&#09;&#09;ButtonListener</li>
+<li>生成监听器对象&#09;&#09;&#09;&#09;ButtonListener buttonListener</li>
+<li>为控件绑定监听器对象&#09;&#09;&#09;button.setOnClickListener(buttonListener);</li>
 </ul>
 <ul><li style="list-style-type: none">textView = (TextView) findViewById(R.id.textView);</li>
 </ul>
