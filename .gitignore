@@ -27,6 +27,7 @@ proguard/
 *.ipr
 *.iws
 .idea/
+.metadata/
 
 # notebook-html folder
 LearningAndroid_Notebook-html/
