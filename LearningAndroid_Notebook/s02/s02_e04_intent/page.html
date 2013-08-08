@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>S02_E04_Intent</title>
+</head><body><a href="S02_E04_Intent">S02_E04_Intent<br/>
+</a><br/>
+Intent基本概念<ul><li>Intent是Android应用程序的基本组件之一</li>
+<li>Intent对象在Android系统当中表示一种意图</li>
+<li>Intent当中最重要的内容是action与data</li>
+</ul>
+<br/>
+使用Intent对象传递数据<ul><li>在Activity之间可以通过Intent对象传递数据</li>
+<li>使用.putExtra()系列方法向Intent对象当中存储数据</li>
+<li>使用.getXXXXExtra()系列方法从Intent对象当中取出数据 </li>
+<li style="list-style-type: none"><ul><li>getIntent() 返回启动这个Activity的Intent对象。</li>
+<li style="list-style-type: none"></li>
+</ul>
+</li>
+</ul>
+In MainAcitivity.java<br/>
+<ul><li style="list-style-type: none"><ul><li style="list-style-type: none">@Override</li>
+</ul>
+</li>
+</ul>
+&#09;&#09;public void onClick(View v) {<br/>
+&#09;&#09;&#09;Intent intent = new Intent();<br/>
+&#09;&#09;&#09;intent.setClass(MainActivity.this, OtherActivity.class);<br/>
+&#09;&#09;&#09;<span style="color: #ff0000">intent.putExtra("com.rockyniu.s02_e04_intent.Age", 20);</span><br/>
+&#09;&#09;&#09;<span style="color: #ff0000">intent.putExtra("com.rockyniu.s02_e04_intent.Name", "ZhangSan");</span><br/>
+&#09;&#09;&#09;startActivity(intent);<br/>
+&#09;&#09;}<br/>
+<br/>
+In OtherActivity.java<br/>
+<ul><li style="list-style-type: none">protected void onCreate(Bundle savedInstanceState) {</li>
+</ul>
+&#09;&#09;super.onCreate(savedInstanceState);<br/>
+&#09;&#09;setContentView(R.layout.other);<br/>
+&#09;&#09;<br/>
+&#09;&#09;<span style="color: #ff0000">Intent intent = getIntent();</span><br/>
+&#09;&#09;<span style="color: #ff0000">int age = intent.getIntExtra("com.rockyniu.s02_e04_intent.Age", 10);</span><br/>
+&#09;&#09;<span style="color: #ff0000">String name = intent.getStringExtra("com.rockyniu.s02_e04_intent.Name");</span><br/>
+&#09;&#09;<br/>
+&#09;&#09;textView = (TextView) findViewById(R.id.textView);<br/>
+&#09;&#09;textView.setText(name + ":" + age);<br/>
+&#09;}</body></html>

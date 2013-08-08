@@ -5,4 +5,30 @@
 <title>S02_E01_Activity生命周期一</title>
 </head><body><a href="nbk:///27402491-ddfd-4966-b709-c641a62c285d">S02_E01_Activity生命周期一<br/>
 </a><br/>
-</body></html>
+MultiActivity<br/>
+<ul><li>新建一个class extends Activity in "src" folder, 复写Activity当中的onCreate方法 #setContentView(R.layout.second);</li>
+<li>在layout里新建.xml文件</li>
+<li>在AndroidManifest.xml里注册新Activity[.java/.class]</li>
+<li style="list-style-type: none"></li>
+</ul>
+<span style="color: #ff0000">&lt;intent-filter&gt;&lt;/intent-filter&gt;决定起始Activity,放在哪里哪里就是默认启动的Activity</span><br/>
+<br/>
+启动Activity的方法：<ul><li>生成一个<span style="color: #ff0000">意图对象（Intent）：Android里大部分任务需要用Intent</span></li>
+<li>调用setClass方法设置所要启动的Activity</li>
+<li>调用startActivity方法启动Activity</li>
+</ul>
+<br/>
+class ButtonListener implements OnClickistener{<ul><li style="list-style-type: none">pubilc void onClick (View v){</li>
+<li style="list-style-type: none"><ul><li style="list-style-type: none">Intent intent = new Intent();</li>
+<li style="list-style-type: none">// setClass函数的地一个参数是Context对象</li>
+<li style="list-style-type: none">// Context是一个类，Activity是Context的子类，也就是说所有的Activity对象都可以向上转型为Context的对象</li>
+<li style="list-style-type: none">// setClass函数的第二个参数是一个Class对象，在当前场景下，应当传入需要启动的Activity类的class对象</li>
+<li style="list-style-type: none">intent.setClass (MainActivity.this, SecondActivity.class);</li>
+<li style="list-style-type: none">startActivity (intent);</li>
+</ul>
+</li>
+<li style="list-style-type: none">}</li>
+</ul>
+}<br/>
+<br/>
+<span style="color: #ff0000">back stack</span></body></html>
