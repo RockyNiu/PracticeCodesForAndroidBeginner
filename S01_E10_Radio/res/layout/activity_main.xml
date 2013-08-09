@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <RadioButton 
+            android:id="@+id/femaleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="female"/>
+        <RadioButton 
+            android:id="@+id/maleId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="male"/>
+        
+	</RadioGroup>
+	
+    <RadioGroup
+        android:id="@+id/radioGroup02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <RadioButton 
+            android:id="@+id/shoppingId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shopping"/>
+        <RadioButton 
+            android:id="@+id/gameId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="game"/>
+        
+	</RadioGroup>
+</LinearLayout>
