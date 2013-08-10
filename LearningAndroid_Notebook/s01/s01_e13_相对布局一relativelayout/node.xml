@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>S01_E13_相对布局一RelativeLayout</string>
+  <key>nodeid</key><string>91ebd652-3aad-4dc8-92d6-1c36add2d579</string>
+  <key>modified_time</key><integer>1376105590</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1376105300</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>8</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

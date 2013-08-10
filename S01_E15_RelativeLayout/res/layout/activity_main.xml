@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:textSize="20sp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/titleTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:text="@string/title" 
+        />
+    <LinearLayout
+        android:id="@+id/mainLinearLayoutId"        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextId"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        >
+        
+        <RelativeLayout
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:gravity="center_horizontal" 
+            >
+	        <ImageView 
+		        android:id="@+id/aImageViewId"
+		        android:layout_width="50dp"
+		        android:layout_height="50dp"
+		        android:scaleType="centerCrop"
+		        android:src="@drawable/ic_launcher"
+	        />
+			<RadioGroup 
+			    android:id="@+id/aRadioGroupId"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@id/aImageViewId"
+			    android:layout_marginTop="10dp"
+			    >
+			    <RadioButton 
+			        android:id="@+id/a1RadioButtonId"
+			        android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:text="@string/c1"
+			        />
+			    <RadioButton 
+			        android:id="@+id/a2RadioButtonId"
+			        android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:text="@string/c2"
+			        />
+				<RadioButton 
+			        android:id="@+id/a3RadioButtonId"
+			        android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:text="@string/c3"
+			        />
+			</RadioGroup>	    
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:gravity="center_horizontal" 
+            >
+	        <ImageView 
+		        android:id="@+id/bImageViewId"
+		        android:layout_width="50dp"
+		        android:layout_height="50dp"
+		        android:scaleType="centerCrop"
+		        android:src="@drawable/ic_launcher"
+	        />
+			<RadioGroup 
+			    android:id="@+id/bRadioGroupId"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_below="@id/bImageViewId"
+			    android:layout_marginTop="10dp"
+			    >
+			    <RadioButton 
+			        android:id="@+id/b1RadioButtonId"
+			        android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:text="@string/c1"
+			        />
+			    <RadioButton 
+			        android:id="@+id/b2RadioButtonId"
+			        android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:text="@string/c2"
+			        />
+				<RadioButton 
+			        android:id="@+id/b3RadioButtonId"
+			        android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:text="@string/c3"
+			        />
+			</RadioGroup>				    
+        </RelativeLayout>			
+		
+    </LinearLayout>
+	
+    <Button 
+        android:id="@+id/okButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainLinearLayoutId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/ok"
+        />
+    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:layout_below="@id/okButtonId"
+	    >
+        
+        <LinearLayout 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:orientation="vertical" 
+		    android:gravity="center_horizontal" 
+		    >
+			        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/choice_result"/>
+	        
+	        <TextView
+	            android:id="@+id/choiceATextViewId"	            
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/choice_result"/>
+	        
+	        <TextView
+	            android:id="@+id/choiceBTextViewId"	 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/choice_result"/>
+	        
+	    </LinearLayout>
+	    
+        <LinearLayout 
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:orientation="vertical" 
+		    android:gravity="center_horizontal" 
+		    >
+	        	        	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/result"/>
+	        
+	        <TextView
+	            android:id="@+id/resultTextViewId"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/result"/>
+	         
+	    </LinearLayout>
+	                               
+    </LinearLayout>	
+
+
+</RelativeLayout>

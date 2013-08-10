@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>S01_E12_深入LinearLayout</string>
+  <key>nodeid</key><string>cfb23c83-111e-4928-8491-8451741c5f07</string>
+  <key>modified_time</key><integer>1376103755</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1376102182</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>7</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

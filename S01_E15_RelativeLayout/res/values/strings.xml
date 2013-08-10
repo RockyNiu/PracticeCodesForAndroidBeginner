@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">S01_E15_RelativeLayout</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Rock, Paper, Scissors</string>
+    <string name="ok">OK</string>
+    
+    <string-array name="choice">
+		<item>Rock</item>
+		<item>Paper</item>
+		<item>Scissors</item>
+　　 </string-array>
+		
+    <string name="c1">Rock</string>
+    <string name="c2">Paper</string>
+    <string name="c3">Scissors</string>
+    <string name="choice_result">Choice</string>
+    <string name="result">Result</string>
+    
+
+</resources>
