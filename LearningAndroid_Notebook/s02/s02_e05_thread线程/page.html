@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>S02_E05_Thread线程</title>
+</head><body><a href="S02_E05_Thread线程">S02_E05_Thread线程<br/>
+</a><br/>
+Main Thread (UI Thread主线程) and Worker Thread<br/>
+<br/>
+在Worker Thread里绝大多数都不能修改UI Thread，但有例外，如Worker Thread可以修改UI Thread中的ProgressBar<br/>
+<br/>
+NR: Application not responding<br/>
+<br/>
+在一个程序当中，UI Thread通常用于接收用户的输入，以及将运算的结果反馈给用户<br/>
+所以说对于一些可能会产生阻塞的操作，必须放置在Worker Thread当中<br/>
+<br/>
+<a href="https://github.com/RockyNiu/LearningAndroid/tree/master/S02_E05_Thread01">codes: https://github.com/RockyNiu/LearningAndroid/tree/master/S02_E05_Thread01</a></body></html>

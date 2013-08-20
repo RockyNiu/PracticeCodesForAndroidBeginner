@@ -32,3 +32,5 @@ proguard/
 # notebook-html folder
 LearningAndroid_Notebook-html/
 
+*~
+

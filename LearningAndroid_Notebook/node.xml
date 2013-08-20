@@ -21,9 +21,9 @@
   <key>info_sort_dir</key><integer>1</integer>
   <key>title</key><string>LearningAndroid</string>
   <key>column_widths</key><dict>
-    <key>created_time</key><integer>150</integer>
-    <key>modified_time</key><integer>680</integer>
-    <key>title</key><integer>235</integer>
+    <key>created_time</key><integer>85</integer>
+    <key>modified_time</key><integer>683</integer>
+    <key>title</key><integer>243</integer>
   </dict>
   <key>attr_defs</key><array>
     <dict>
