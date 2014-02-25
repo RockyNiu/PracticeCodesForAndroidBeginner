@@ -10,7 +10,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println("买车");
+        System.out.println("create");
         
     }
 
@@ -24,14 +24,14 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onDestroy() {
-		System.out.println("车辆报废");
+		System.out.println("destroy");
 		super.onDestroy();
 	}
 
 
 	@Override
 	protected void onPause() {
-		System.out.println("松开油门");
+		System.out.println("pause");
 		super.onPause();
 	}
 
@@ -45,21 +45,21 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onResume() {
-		System.out.println("踩油门，驱动汽车前进");
+		System.out.println("resume");
 		super.onResume();
 	}
 
 
 	@Override
 	protected void onStart() {
-		System.out.println("打火，启动");
+		System.out.println("start");
 		super.onStart();
 	}
 
 
 	@Override
 	protected void onStop() {
-		System.out.println("熄火");
+		System.out.println("stop");
 		super.onStop();
 	}
     
