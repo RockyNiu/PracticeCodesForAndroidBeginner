@@ -1,4 +1,4 @@
-# Learning Android
+# Practice Codes For Android Beginner
 
 * This is a basic course with practice codes for android beginner
 * Most codes wrote following MarsChen (www.marschen.com)
