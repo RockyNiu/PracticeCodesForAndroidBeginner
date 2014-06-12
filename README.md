@@ -3,6 +3,7 @@
 * This is a basic course with practice codes for android beginner
 * Most codes wrote following MarsChen (www.marschen.com)
 * Some interesting bugs at [here](https://github.com/RockyNiu/LearningAndroid/wiki)
+* Feel free to contact me through [email](mail to:lei.niu.ny@gmail.com) or [issues]( https://github.com/RockyNiu/LearningAndroid/issues)
 
 ###重制版第一季
 
