@@ -4,7 +4,7 @@
 * Most codes wrote following MarsChen (www.marschen.com)
 * Some interesting bugs at [here](https://github.com/RockyNiu/LearningAndroid/wiki)
 * Feel free to contact me through email or [issues]( https://github.com/RockyNiu/LearningAndroid/issues)
-* Learning Notes attached [here](https://github.com/RockyNiu/LearningAndroid/tree/master/LearningAndroid_Notebook), open it by KeepNote.
+* Learning Notes attached [here](https://github.com/RockyNiu/LearningAndroid/tree/master/LearningAndroid_Notebook), open it by [KeepNote](http://keepnote.org/).
 
 ###重制版第一季
 
