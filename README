@@ -1,10 +1,10 @@
-# Learning Android 
+#Learning Android 
 
 * This is a basic course of practice codes for android beginner
 * Most codes wrote following MarsChen (www.marschen.com)
 * Some interesting bugs at [here](https://github.com/RockyNiu/LearningAndroid/wiki)
 
-### 重制版第一季
+###重制版第一季
 
 * S01_E00_课程介绍
 * S01_E01_Android发展史
@@ -26,7 +26,7 @@
 * S01_E17_ProgressBar
 * S01_E18_SeekBar和RatingBar
 
-### 重制版第二季
+###重制版第二季
 
 * S02_E00_课程介绍
 * S02_E01_Activity生命周期一
