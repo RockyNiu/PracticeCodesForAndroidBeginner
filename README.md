@@ -1,6 +1,6 @@
 # Learning Android
 
-* This is a basic course of practice codes for android beginner
+* This is a basic course with practice codes for android beginner
 * Most codes wrote following MarsChen (www.marschen.com)
 * Some interesting bugs at [here](https://github.com/RockyNiu/LearningAndroid/wiki)
 
