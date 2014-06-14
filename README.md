@@ -6,7 +6,7 @@
 * Feel free to contact me through email or [issues]( https://github.com/RockyNiu/PracticeCodesForAndroidBeginner/issues)
 * Learning Notes attached [here](https://github.com/RockyNiu/PracticeCodesForAndroidBeginner/tree/master/LearningAndroid_Notebook), open it by [KeepNote](http://keepnote.org/).
 
-###Season01 重制版第一季
+###Season01 
 
 * S01_E00_Introduction
 * S01_E01_Android History 
@@ -28,7 +28,7 @@
 * S01_E17_ProgressBar 
 * S01_E18_SeekBar和RatingBar
 
-###Season02 重制版第二季
+###Season02 
 
 * S02_E00_Introduction 
 * S02_E01_Activity Life-Cycle01 
