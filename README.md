@@ -3,8 +3,8 @@
 * This is a basic course with practice codes for android beginner
 * Most codes wrote following MarsChen (www.marschen.com)
 * Some interesting bugs at [here](https://github.com/RockyNiu/LearningAndroid/wiki)
-* Feel free to contact me through email or [issues]( https://github.com/RockyNiu/LearningAndroid/issues)
-* Learning Notes attached [here](https://github.com/RockyNiu/LearningAndroid/tree/master/LearningAndroid_Notebook), open it by [KeepNote](http://keepnote.org/).
+* Feel free to contact me through email or [issues]( https://github.com/RockyNiu/PracticeCodesForAndroidBeginner/issues)
+* Learning Notes attached [here](https://github.com/RockyNiu/PracticeCodesForAndroidBeginner/tree/master/LearningAndroid_Notebook), open it by [KeepNote](http://keepnote.org/).
 
 ###Season01 重制版第一季
 
